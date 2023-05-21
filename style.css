@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+@import url("https://fonts.googleapis.com/css?family=Fraunces");
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+img,span{
+    display:block;
+    white-space: nowrap;
+}
+
+body{
+    background: hsl(30, 38%, 92%);
+    padding:1rem;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 700px;
+    margin: 1rem auto;
+    background-color: white;
+    border-radius: 1rem;
+}
+.image,.mobile-img{
+    width: 100%;
+}
+
+.image .desktop-img{
+    display: none;
+}
+
+.image .mobile-img{
+    border-radius: 1rem 1rem 0rem 0rem;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1.2rem;
+    margin:1rem auto;
+    padding: 1.5rem;
+}
+
+.header, h1, .description,.price{
+    width: 100%;
+    text-align: left;
+}
+
+.header, .description{
+    font-weight: 500;
+    color:hsl(228, 12%, 48%);
+    line-height: 1.4rem;
+    font-family: "Montserrat";
+
+}
+
+.header{
+    letter-spacing: 0.4rem;
+    white-space: nowrap;
+}
+
+h1,.new{
+    font-weight: 700;
+    font-family: "Fraunces";
+    font-size: 2rem;
+}
+
+h1{
+    color: hsl(212, 21%, 14%);
+}
+
+.price{
+    display: flex;
+    flex-direction: row;
+    gap:2rem;
+    color:hsl(158, 36%, 37%);
+}
+
+.prev{
+    padding:0.6rem;
+    text-decoration: line-through;
+}
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color:hsl(158, 36%, 37%);
+    color:white;
+    gap:1rem;
+    border-radius: 7px;
+    width:100%;
+    font-weight: 500;
+    font-family: "Montserrat";
+}
+
+.cart{
+    width:7%;
+}
+
+.attribution{
+    text-align: center;
+}
+
+/* /* || MOBILE DEVICE 
+@media screen and (min-width: 375px) 
+ {
+   
+ }
+
+ */
+
+
+/* || DESKTOP DEVICE */
+@media screen and (min-width: 1200px )
+{
+    main{
+       width:60%;
+       max-width:700px;
+       margin:5rem auto;
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       align-items: center;
+    }
+
+    .mobile-img{
+        display: none;
+    }
+
+    
+    .image .desktop-img{
+    display: block;
+    border-radius: 1rem 0 0 1rem;
+    max-width: 350px;
+    }
+
+    h1,.new{
+        font-size: 2.2rem;
+    }
+
+    .description{
+        font-size: 1.1rem;
+        line-height: 1.9rem;
+    }
+
+}
+
+
+
+
