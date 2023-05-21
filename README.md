@@ -13,9 +13,9 @@ This is a solution to the [Product preview card component challenge on Frontend 
 ## Overview
 
 
-- Solution URL: [solution URL](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV/hub)
+- Solution URL: [solution URL](https://www.frontendmentor.io/solutions/productpreviewcardcomponent-hdhi-vxhdh)
 
-- Live Site URL: [live site URL](https://kolade1024.github.io/Result-Summary-Component-Solution/)
+- Live Site URL: [live site URL](https://kolade1024.github.io/Product-review-card-component/)
 
 
 

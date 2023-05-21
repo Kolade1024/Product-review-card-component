@@ -93,7 +93,9 @@ h1{
 }
 
 .btn{
+    cursor: pointer;
     display: flex;
+    border: none;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -105,11 +107,18 @@ h1{
     width:100%;
     font-weight: 500;
     font-family: "Montserrat";
+    transition: all ease-in-out 0.5s;
+    
 }
 
 .cart{
     width:7%;
 }
+
+.btn:hover{
+    background-color:hsl(212, 21%, 14%);
+}
+
 
 .attribution{
     text-align: center;
